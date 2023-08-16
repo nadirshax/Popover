@@ -1,0 +1,52 @@
+body {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+
+/* li {
+     margin: 120px;
+     display: inline;
+     position: relative;
+     justify-content: center;
+     color: red !important;
+     font-size: 15px;
+ } */
+
+button {
+    border: rgb(214, 206, 59) solid;
+    border-radius: 10px;
+    margin: 10% 40%;
+}
+
+#example-popover::backdrop {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+h1 {
+    position: relative;
+    margin: 10px;
+    padding: 50px;
+    color: aqua;
+}
+
+.vid {
+    position: absolute;
+    margin: auto 610px;
+}
+
+.popover {
+    text-align: center;
+    width: 700px;
+    height: 600px;
+    background-color: black;
+}
+
+p {
+    font-size: 20px;
+    cursor: pointer;
+    align-items: center;
+    color: rgb(193, 186, 104);
+}
